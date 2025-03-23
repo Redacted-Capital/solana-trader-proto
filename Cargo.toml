@@ -19,9 +19,9 @@ include = ["**/*.rs", "Cargo.toml", "Cargo.lock", "README.md", "proto"]
 path = "rust/lib.rs"
 
 [dependencies]
-tonic = "0.12.3"
-prost = "0.13.3"
-prost-types = "0.13.3"
+tonic = "0.10.2"
+prost = "0.12.1"
+prost-types = "0.12.1"
 serde = "1.0.214"
 serde_derive = "1.0.214"
 prost-wkt-types = "0.6.0"
@@ -29,7 +29,7 @@ base64 = "0.22.1"
 regex = "1.11.1"
 
 [build-dependencies]
-tonic-build = "0.12.3"
-prost-build = "0.13.3"
+tonic-build = "0.10.2"
+prost-build = "0.12.1"
 serde = "1.0.214"
 regex = "1.11.1"
